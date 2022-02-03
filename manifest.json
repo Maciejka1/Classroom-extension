@@ -1,0 +1,12 @@
+{
+  "manifest_version": 1,
+  "name": "Simple classroom prettier",
+  "version": "1.0",
+  "description": "A simple classroom extension that makes it less ugly",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "matches": ["https://classroom.google.com/u/1/h*"]
+  }]
+ 
+}

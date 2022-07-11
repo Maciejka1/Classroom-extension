@@ -7,7 +7,7 @@
   
   "content_scripts": [{
     "css": ["style.css"],
-    "matches": ["https://classroom.google.com/u/1/h*"]
+    "matches": ["https://classroom.google.com/u/"]
   }]
  
 }
